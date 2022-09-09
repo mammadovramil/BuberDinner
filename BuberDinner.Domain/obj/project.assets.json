@@ -1,11 +1,42 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ErrorOr/0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ErrorOr/0.0.5": {
+      "sha512": "DcMzdyREcOX0IPxpwaUCB0hdPdkmRUyq3DaLK3jtGVyhEl4JxDQ2qzU4YAHkyYCR/R9k7bRY5ffJkQTktWe58g==",
+      "type": "package",
+      "path": "erroror/0.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.0.0.5.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ErrorOr >= 0.0.5"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ramil\\.nuget\\packages\\": {},
@@ -51,6 +82,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[0.0.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -4,7 +4,7 @@
 
 ```json
 {
-    "id": "00000000-0000-0000-000000000000",
+    "id": "00000000-0000-0000-0000-000000000000",
     "firstName": "Amichai",
     "lastName": "Mantinband",
     "email": "amichai@mantinband.com",
@@ -12,4 +12,4 @@
 }
 ```
 
-> Note: Passwords shouldn't be laying around like this
+> Note: Passwords shouldn't be laying around like this ⚠️

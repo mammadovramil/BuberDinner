@@ -1,6 +1,6 @@
 namespace BuberDinner.Contracts.Authentication;
 
-public record RegisterRequet(
+public record RegisterRequest(
     string FirstName,
     string LastName,
     string Email,

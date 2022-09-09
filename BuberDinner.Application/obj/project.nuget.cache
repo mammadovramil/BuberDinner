@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "10fXhh77VYLJ7YGZwi2csigaBQnGl1gebpMFTotFP+iXmV6QMvimd+O6JxIQhSWmlFQAbelCkjRifkRErIST7A==",
+  "dgSpecHash": "HGWCPzJBofagp+gITz4EmpoSLUzq8wGWxwouTRxmT/kG9K7jIL/KT+0B5MchU42aajQrmIlczlOjz2x+SaZH9g==",
   "success": true,
-  "projectFilePath": "c:\\source\\repos\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+  "projectFilePath": "C:\\source\\repos\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ramil\\.nuget\\packages\\erroror\\0.0.5\\erroror.0.0.5.nupkg.sha512",
     "C:\\Users\\ramil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
